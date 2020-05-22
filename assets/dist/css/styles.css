@@ -1,0 +1,28 @@
+body {
+    
+}
+.wrapper {
+    margin-left:500px;
+    margin-right:500px;
+    margin-top:30px;
+    background:grey;
+    padding: 1px;
+}
+.title {
+    background-color: #F2F2F2;
+}
+.header {
+    background-color: #F2F2F2;
+    height: 30px;
+}
+.display {
+    background-color: #F2F2F2;
+    height: 150px;
+}
+.control {
+    background-color: #F2F2F2;
+    height: 350px;
+}
+hr {
+    margin: 0px;
+}
