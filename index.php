@@ -16,8 +16,32 @@
         <div class="display">display</div>
         <hr>
         <div class="control">
-            control
-            <div></div>
+            <div class="row">
+                <div class="num">no</div>
+                <div class="num">no</div>
+                <div class="num">no</div>
+                <div class="num">no</div>
+            </div>
+            <!-- <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div>
+            <div class="num">no</div> -->
         </div>
     </div>
 </body>
