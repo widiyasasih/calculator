@@ -1,0 +1,95 @@
+body {
+    text-align: left;
+    font-family: 'Trebuchet MS';
+}
+
+.wrapper {
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-top: 30px;
+    background: rgb(194, 194, 194);
+    padding: 1px;
+}
+
+.title {
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    font-size: 12px;
+}
+
+.header {
+    background-color: #F2F2F2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar {
+    margin-right: 20px;
+}
+.rowNavBar {
+    display: flex;
+    align-items: center;
+}
+.calType {
+    font-size: 20px;
+}
+.history {
+    text-align: right;
+}
+.display {
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+.subDisplay {
+    text-align: right;
+    margin-bottom: 5px;
+}
+.result {
+    text-align: right;
+    font-size: 50px;
+}
+.altControl {
+    margin-top: 20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.control {
+    background-color: #F2F2F2;
+    padding: 2px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 1px;
+}
+.num {
+    text-align: center;
+    background-color: #F8F8F8;
+    width: 74px;
+    height: 50px;
+} 
+.mainNum {
+    font-weight: bolder;
+}
+
+.mainControl {
+    background-color: #FDFDFD;
+}
+.equalControl {
+    background-color: #92C2E8;
+}
+.plusminus {
+    font-size: 15px;
+}
+.disabled {
+    color: grey;
+}
