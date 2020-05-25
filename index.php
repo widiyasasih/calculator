@@ -17,108 +17,110 @@
         <div class="header">
             <div class="rowNavBar">
                 <div class="navBar">
-                    <span><i class="fas fa-bars"></i></span>
+                    <span class="button"><i class="fas fa-bars"></i></span>
                 </div>
-                <div class="calType">
+                <div class="calType class="button"">
                     <span>Standard</span>
                 </div>
             </div>
-            <div class="history"><i class="fas fa-history"></i></div>
+            <div class="history button">
+                <i class="fas fa-history"></i>
+            </div>
         </div>
         <div class="display">
             <div class="subDisplay disabled">0 +</div>
             <div class="result">0</div>
             <div class="row altControl">
-                <div class="disabled">MC</div>
-                <div class="disabled">MR</div>
-                <div>M+</div>
-                <div>M-</div>
-                <div>MS</div>
-                <div class="disabled">M&#9662;</div>
+                <div class="disabled button">MC</div>
+                <div class="disabled button">MR</div>
+                <div class="button">M+</div>
+                <div class="button">M-</div>
+                <div class="button">MS</div>
+                <div class="disabled button">M&#9662;</div>
             </div>
         </div>
         <div class="control">
             <div class="row">
-                <div class="num">
+                <div class="num button">
                     <p>&#37;</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>CE</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>C</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>&#8592;</p>
                 </div>
             </div>
             <div class="row">
-                <div class="num">
+                <div class="num button">
                     <p>&#8543;&#8339;</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>&#8339;&#178;</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>&#8339;&#179;</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>&#247;</p>
                 </div>
             </div>
             <div class="row">
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>7</p>
                 </div>
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>8</p>
                 </div>
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>9</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>&#215;</p>
                 </div>
             </div>
             <div class="row">
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>4</p>
                 </div>
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>5</p>
                 </div>
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>6</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>-</p>
                 </div>
             </div>
             <div class="row">
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>1</p>
                 </div>
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>2</p>
                 </div>
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>3</p>
                 </div>
-                <div class="num">
+                <div class="num button">
                     <p>+</p>
                 </div>
             </div>
             <div class="row">
-                <div class="num mainControl plusminus">
+                <div class="num button mainControl plusminus">
                     <p>&#8314; &#8260; &#8331;</p>
                 </div>
-                <div class="num mainNum mainControl">
+                <div class="num button mainNum mainControl">
                     <p>0</p>
                 </div>
-                <div class="num mainControl">
+                <div class="num button mainControl">
                     <p>,</p>
                 </div>
-                <div class="num equalControl">
+                <div class="num button equalControl">
                     <p>=</p>
                 </div>
             </div>
