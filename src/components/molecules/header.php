@@ -1,6 +1,6 @@
 <div class="header">
     <div id="sideBarNav" class="sideBar">
-        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closeBtn button" onclick="closeNav()">&times;</a>
     </div>
     <div class="rowNav">
         <div class="navBar button" onclick="openNav()">
@@ -19,13 +19,8 @@
     function openNav() {
         document.getElementById('sideBarNav').style.width = '260px';
     }
+    
     function closeNav() {
         document.getElementById('sideBarNav').style.width = '0';
-    }
-    function openHistory() {
-        document.getElementById('bottomHistoryNav').style.width = '260px';
-    }
-    function closeHistory() {
-        document.getElementById('bottomHistoryNav').style.width = '0';
     }
 </script>
