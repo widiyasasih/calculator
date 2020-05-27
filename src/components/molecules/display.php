@@ -1,6 +1,10 @@
 <div class="display">
-    <div class="subDisplay disabled">0 +</div>
-    <div class="result">0</div>
+    <div class="subDisplay disabled">
+        <output id="counting"><p class="hide">0;</p></output>
+    </div>
+    <div class="result">
+        <output id="resultCount">0</output>
+    </div>
     <div class="altControl">
         <div class="alt disabled button">MC</div>
         <div class="alt disabled button">MR</div>
