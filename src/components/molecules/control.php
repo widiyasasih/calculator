@@ -1,5 +1,5 @@
 <div class="control" style="position: relative;">
-    <div id="bottomHistoryNav" class="historyNav" style="position: absolute;">
+    <div id="bottomHistoryNav" class="historyNav">
     </div>
     <div class="row">
         <div class="num button">
@@ -89,12 +89,12 @@
 
 <script>
     function openHistory() {
-        document.getElementById('bottomHistoryNav').style.width = '100%';
-        document.getElementById('thisCloseHistory').style.width = '100%';
+        document.getElementById('bottomHistoryNav').style.height = '100%';
+        document.getElementById('thisCloseHistory').style.height = '100%';
     }
     
     function closeHistory() {
-        document.getElementById('bottomHistoryNav').style.width = '0';
-        document.getElementById('thisCloseHistory').style.width = '0';
+        document.getElementById('bottomHistoryNav').style.height = '0';
+        document.getElementById('thisCloseHistory').style.height = '0';
     }
 </script>

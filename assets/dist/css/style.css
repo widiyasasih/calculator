@@ -9,10 +9,7 @@ body {
 }
 
 hr {
-    margin: 0px;
-    height: 0px;
-    border-width: 0.1em dashed;
-
+    border-width: 0.05em dashed;
 }
 
 a {
@@ -32,9 +29,6 @@ a {
 }
 
 .wrapper {
-    /* margin-left: 520px;
-    margin-right: 520px; */
-    /* margin-top: 30px; */
     width: 25%;
     background: rgb(194, 194, 194);
     padding: 1px;
@@ -59,9 +53,7 @@ a {
 
 .rowNav {
     text-align: center;
-    /* padding: 5px; */
     background-color: rgba(248, 248, 248, 0);
-    /* margin-left: 2px; */
     display: flex;
     flex: 1;
     justify-content: flex-start;
@@ -168,10 +160,6 @@ a {
     font-size: 15px;
 }
 
-.disabled {
-    color: grey;
-}
-
 .signature, .about {
     color: grey;
     font-size: 14px;
@@ -183,6 +171,24 @@ a {
 
 .right {
     text-align: right;
+}
+
+.blankCloseSideBar {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.3s;
+} 
+
+.sideNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .sideBar {
@@ -197,9 +203,16 @@ a {
     transition: 0.5s;
     box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.19);
 }
-
+.headerCloseBtn {
+    width: 100%;
+    left: 0;
+    font-size: 26px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #F2F2F2;
+}
 .sideBar .closeBtn {
-    position: absolute;
+    width: 100%;
     top: 2;
     left: 0;
     font-size: 26px;
@@ -220,6 +233,34 @@ a {
     color: inherit;
 }
 
+h4 {
+    margin-bottom: 14px;
+    margin: 14px;
+}
+
+.menu {
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+.menu a {
+    width: 100%;
+    padding: 14px;
+    padding-left: 4px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.menu a:hover {
+    background-color: rgb(214, 214, 214);
+    border-style: none;
+}
+
 /* @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
@@ -230,19 +271,69 @@ a {
     }
 } */
 
-.historyNav, .closeHistory {
-    height: 100%;
-    width: 0;
+.historyNav,
+.closeHistory {
+    height: 0;
+    width: 100%;
     position: absolute;
     z-index: 1;
     left: 0;
     bottom: 0;
+    margin-top: 100%;
     background-color: #D8D8D8;
     overflow-y: hidden;
-    transition: 0.5s;
-    transform: translate();
+    transition: 0.3s;
 }
 
 .closeHistory {
     background-color: rgba(107, 107, 107, 0.541);
+}
+
+.stickyTop {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.stickyBottom {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+.menu2 {
+    margin-top: 10px;
+}
+
+.menu a .barSign {
+    color: rgba(242, 242, 242, 0);
+}
+
+.selected {
+    color: rgb(41, 135, 212);
+}
+
+.icon {
+    margin: 6px;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.24);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
