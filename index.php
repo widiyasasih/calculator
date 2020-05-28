@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Win Version</title>
 
+    <link rel="icon" href="assets/dist/pictures/cal_icon.svg" type="image/svg" sizes="16x16">
     <link rel="stylesheet" href="assets/dist/css/style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -15,4 +16,4 @@
 <body>
     <?php require 'app.php';?>
 </body>-
-</html>
+</html> 

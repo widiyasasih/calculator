@@ -116,10 +116,20 @@
             $('#counting').append(' ' + y + ' ');
         } else {
             // alert(x);
-            $('#counting').append(x);
-        }
+            // if ($('#resultCount').text() === 0) {
+            //     $('#resultCount').text(0);
+            // } else {
+            //     $('#counting').append(x);
+            //     $('#resultCount').append(x);
+            // }
 
-        
+            if ($('#resultCount').text() === 0 && x===0 && y===0) {
+                $('#resultCount').text(0);
+            } else {
+                $('#counting').append(x);
+                $('#resultCount').append(x);
+            }
+        }
     }
 
     // $(document).ready(function(){

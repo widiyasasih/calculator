@@ -4,7 +4,7 @@
         <h2 style="padding-bottom: 15px;"><b>Calculator Windows Version</b></h2>
     </p>   
     <p>
-        Estimated complete for 4 days at 27 May 2020
+        Estimated complete for 5 days at 28 May 2020
         <br><br>
         #EigerTime #BoringTimeChallenge
     </p>
